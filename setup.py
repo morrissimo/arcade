@@ -24,7 +24,7 @@ setup(
     download_url="https://api.arcade.academy",
     install_requires=[
         "pyglet==2.0.dev13",
-        "pillow~=9.0.0",
+        "pillow>=9.0,<10.4",
         "pymunk~=6.2.1",
         "pytiled-parser==2.0.1",
     ],
